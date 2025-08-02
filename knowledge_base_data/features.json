@@ -1,0 +1,110 @@
+[
+  {
+    "id": 0,
+    "name": "Customer Journey Tracking",
+    "description": "Manage customer journeys and touchpoints to understand and improve user experience across all channels.",
+    "category": "Voice of Customer - Journeys",
+    "tags": ["journey", "touchpoint", "tracking"],
+    "channels_supported": ["web", "mobile", "email"],
+    "industries": ["retail", "telecom"]
+  },
+  {
+    "id": 1,
+    "name": "Multi-Channel Surveys",
+    "description": "Design and deploy surveys across Web, Mobile, Zalo, SMS, Email, QR, and POS to collect customer feedback.",
+    "category": "Voice of Customer - Surveys",
+    "tags": ["survey", "multi-channel", "feedback"],
+    "channels_supported": ["web", "mobile", "zalo", "sms", "email", "qr", "pos"],
+    "industries": ["retail", "ecommerce", "hospitality"]
+  },
+  {
+    "id": 2,
+    "name": "Review Aggregation",
+    "description": "Aggregate and analyze reviews from platforms like Google, Facebook, and e-commerce websites.",
+    "category": "Voice of Customer - Reviews",
+    "tags": ["review", "aggregation", "sentiment"],
+    "channels_supported": ["web", "email", "social"],
+    "industries": ["ecommerce", "hospitality"]
+  },
+  {
+    "id": 3,
+    "name": "Conversation Analysis",
+    "description": "Listen to and analyze customer interactions from chat, call, and email to extract insights and sentiment.",
+    "category": "Voice of Customer - Conversations",
+    "tags": ["chat", "call", "email", "analysis", "insights"],
+    "channels_supported": ["chat", "call", "email"],
+    "industries": ["banking", "telecom", "insurance"]
+  },
+  {
+    "id": 4,
+    "name": "AI Inbox",
+    "description": "A unified AI-powered inbox where human agents and AI agents collaborate to resolve customer issues quickly.",
+    "category": "AI Customer Service - AI Inbox",
+    "tags": ["ai", "inbox", "contact center"],
+    "channels_supported": ["web", "chat", "email"],
+    "industries": ["banking", "telecom", "insurance"]
+  },
+  {
+    "id": 5,
+    "name": "Ticket Management",
+    "description": "A centralized and automated system to manage and resolve customer tickets efficiently.",
+    "category": "AI Customer Service - Tickets",
+    "tags": ["ticket", "support", "automation"],
+    "channels_supported": ["email", "chat", "crm"],
+    "industries": ["retail", "telecom", "software"]
+  },
+  {
+    "id": 6,
+    "name": "Experience Insights",
+    "description": "Extract and analyze customer feedback using NLP to understand experience and detect emerging issues.",
+    "category": "Insights - Experience",
+    "tags": ["experience", "topic analysis", "nlp"],
+    "channels_supported": ["survey", "email", "chat"],
+    "industries": ["education", "banking", "telecom"]
+  },
+  {
+    "id": 7,
+    "name": "Operational Insights",
+    "description": "Monitor the performance of surveys, campaigns, contact center interactions, and support tickets in real-time.",
+    "category": "Insights - Operation",
+    "tags": ["monitoring", "operation", "performance"],
+    "channels_supported": ["web", "dashboard"],
+    "industries": ["ecommerce", "software", "retail"]
+  },
+  {
+    "id": 8,
+    "name": "Customer Management",
+    "description": "Manage and segment customer data to create unified profiles and personalize experiences.",
+    "category": "Customer 360 - Customers",
+    "tags": ["customer", "profile", "segmentation"],
+    "channels_supported": ["web", "crm"],
+    "industries": ["banking", "retail"]
+  },
+  {
+    "id": 9,
+    "name": "Customer Engagement",
+    "description": "Run automated and targeted campaigns via Email, SMS, or Zalo to increase customer retention.",
+    "category": "Customer 360 - Engagement",
+    "tags": ["campaign", "engagement", "marketing"],
+    "channels_supported": ["email", "sms", "zalo"],
+    "industries": ["ecommerce", "education", "hospitality"]
+  },
+  {
+    "id": 10,
+    "name": "AI & Automation Settings",
+    "description": "Configure and manage AI models and workflow automations for customer service operations.",
+    "category": "AI & Automation",
+    "tags": ["ai", "automation", "workflow"],
+    "channels_supported": ["web"],
+    "industries": ["software", "retail", "telecom"]
+  },
+  {
+    "id": 11,
+    "name": "Automated Post-Purchase Surveys",
+    "description": "Triggers surveys automatically via email/SMS after a transaction to collect timely customer feedback.",
+    "category": "Voice of Customer - Surveys",
+    "tags": ["survey", "automation", "post-purchase", "feedback"],
+    "channels_supported": ["email", "sms", "pos"],
+    "industries": ["retail", "ecommerce"]
+  }
+]
