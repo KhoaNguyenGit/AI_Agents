@@ -18,4 +18,4 @@ for feature in features:
 with open("knowledge_base_data/features_with_embeddings.json", "w") as f_out:
     json.dump(features, f_out, indent=2)
 
-print("✅ Embedded features saved to features_with_embeddings.json")
+print("Embedded features saved to features_with_embeddings.json")
