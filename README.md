@@ -4,6 +4,13 @@ This project leverages the **Qwen 2.5-3B Instruct** language model and **Qdrant 
 
 ---
 
+### ⚙️ Environment Requirements
+
+- Python 3.10
+- PyTorch 2.5.1 with CUDA support (recommended: cu121)
+
+---
+
 ## 📁 Project Structure
 
 ```
