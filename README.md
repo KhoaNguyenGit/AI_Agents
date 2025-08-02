@@ -47,8 +47,10 @@ This project leverages the **Qwen 2.5-3B Instruct** language model and **Qdrant 
    ```
 
 2. **Download model weights**
-   - mkdir model
-   - cd model/
+   ```bash
+   mkdir model
+   cd model/
+   ```
    - Place the Qwen 2.5-3B-Instruct model files into the `model/Qwen2.5-3B-Instruct/` directory.
    - Ensure files include `.safetensors`, `config.json`, `tokenizer.json`, etc.
 
