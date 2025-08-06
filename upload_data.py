@@ -1,6 +1,7 @@
 from qdrant_client import QdrantClient
 from qdrant_client.http.models import VectorParams, PointStruct
 import json
+from config import Embedded_Model_Path
 
 client = QdrantClient(host="localhost", port=6333)
 COLLECTION_NAME = "features"
@@ -53,6 +54,6 @@ def delete_features_collection():
         print("Failed to delete collection:", e)
 
 
-# upsert_features("knowledge_base_data/features_with_embeddings.json")
+# upsert_features(Embedded_Model_Path)
 check_features_collection()
 # delete_features_collection()

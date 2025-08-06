@@ -2,16 +2,14 @@ from qdrant_client import QdrantClient
 from qdrant_client.http.models import PointStruct, Filter, FieldCondition, MatchValue
 from sentence_transformers import SentenceTransformer
 from transformers import AutoTokenizer, AutoModelForCausalLM
-from dotenv import load_dotenv
 import os
 import torch
 import json
+from config import Embedded_Model_Path, LLM_model_path
 
-load_dotenv()
-
-embedding_model_path = os.getenv("Embedding_Model_Path")
+embedding_model_path = Embedded_Model_Path
 embedding_model = SentenceTransformer("sentence-transformers/all-MiniLM-L6-v2") 
-LLM_model_path = os.getenv("LLM_model_path")
+LLM_model_path = LLM_model_path
 
 
 user_input = {
