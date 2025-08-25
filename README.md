@@ -104,8 +104,3 @@ python main.py
 - **Embedding**: Could be same as LLM or from sentence-transformers
 
 ---
-
-## 📬 Contact
-
-Built by [Your Name].  
-For questions, contact: your.email@example.com
